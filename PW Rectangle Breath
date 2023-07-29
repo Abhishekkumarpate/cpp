@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    float l, w, a;
+
+    cout << "Enter the length & width of the rectangle::\n";
+    cin >> l >> w;
+    a = l * w;
+    cout << "\nArea of rectangle = " << a << " units";
+    return 0;
+}
